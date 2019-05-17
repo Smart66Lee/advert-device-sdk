@@ -9,7 +9,7 @@ README = open(os.path.join(here, 'README.md')).read()
 # Use part of the sphinx docs index for the long description
 
 setup(
-    name="advert_device_sdk",
+    name="advert_device",
     version='0.1',
     packages=find_packages(),
     description='advert-device sdk',
@@ -17,6 +17,6 @@ setup(
     author="lisiyuan",
     author_email="lisiyuan@zhumengyuan.com",
     license="MIT",
-    url="https://github.com/Smart66Lee/advert_device_sdk",
+    url="https://github.com/Smart66Lee/advert_device",
     include_package_data=True,
 )
